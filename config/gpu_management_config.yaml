@@ -1,0 +1,18 @@
+# GPU Management Configuration
+global_settings:
+  fault_tolerance: True
+  retry_attempts: 3
+  logging_level: "INFO"
+
+gpu_allocation:
+  max_memory_allocation: 12GB
+  load_balancing_strategy: "RoundRobin"
+
+blockchain_integration:
+  enabled: True
+  network: "mainnet"
+  contract_address: "0x3F962f6325E61b90bae9971f110863c4E67036E2"
+
+node_health_check:
+  interval_seconds: 60
+  max_inactive_time_seconds: 300
